@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
+    background: rgb(44, 43, 43);
 }
 .wrapper {
     display: flex;
@@ -69,6 +70,7 @@ input {
 
 .text p {
     font-size: 24px;
+    color: white;
 }
 
 .buttons {
@@ -88,9 +90,9 @@ input {
 .lab {
     width: 20px;
     height: 20px;
-    background: #ddd;
+    background: blue;
     border-radius: 50%;
-    border: 2px solid rgb(51, 46, 46);
+    border: 2px solid white;
     cursor: pointer;
     opacity: 0.5;
     transition: all 0.5s ease;
